@@ -1,1 +1,178 @@
-theme: jekyll-theme-cayman
+#################################################################################################################################
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+# ________  ________  ________   ___  __    ________       ___    ___             ___  ___  ________  _____ ______   _______
+#|\   __  \|\   __  \|\   ___  \|\  \|\  \ |\   ____\     |\  \  /  /|           |\  \|\  \|\   __  \|\   _ \  _   \|\  ___ \
+#\ \  \|\ /\ \  \|\  \ \  \\ \  \ \  \/  /|\ \  \___|_    \ \  \/  / /___________\ \  \\\  \ \  \|\  \ \  \\\__\ \  \ \   __/|
+# \ \   __  \ \   __  \ \  \\ \  \ \   ___  \ \_____  \    \ \    / /\____________\ \   __  \ \  \\\  \ \  \\|__| \  \ \  \_|/__
+#  \ \  \|\  \ \  \ \  \ \  \\ \  \ \  \\ \  \|____|\  \    \/  /  /\|____________|\ \  \ \  \ \  \\\  \ \  \    \ \  \ \  \_|\ \
+#   \ \_______\ \__\ \__\ \__\\ \__\ \__\\ \__\____\_\  \ __/  / /                  \ \__\ \__\ \_______\ \__\    \ \__\ \_______\
+#    \|_______|\|__|\|__|\|__| \|__|\|__| \|__|\_________\\___/ /                    \|__|\|__|\|_______|\|__|     \|__|\|_______|
+#                                             \|_________\|___|/
+#
+##################################################################################################################################
+## => Site Settings
+text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
+highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
+title   : Banksy's Blog
+url     : "https://Banksy-C.github.io" # the base hostname & protocol(协议) for your site e.g. https://www.someone.com
+baseurl : "" # does not include hostname
+tagline : Technical blog and notes for personal archive # 技术博客和个人档案笔记
+description: > # this means to ignore newlines until "Language & timezone"
+  Sharing technical knowledge in a easy-to-learn way
+# 以易于学习的方式分享技术知识
+bio-page-label: About
+# You might want to change the theme associated with one or more sections of the site.
+# Defining your own custom theme variations is easy. See the documentation.
+theme-home: theme-home-builtin-1.html
+
+# Specify the rouge syntax highlighter theme. Pick one from css/rouge.
+rouge-theme: igorpro
+
+# NORMALLY NEVER CHANGE THE FOLLOWING（通常从不更改以下内容 ）
+markdown: kramdown
+include: [_data]
+
+## => Language and Timezone
+##############################
+lang:  # the language of your site, default as "en"
+timezone:  # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+
+
+## => Author and Social
+##############################
+author:
+  type      : # "person" (default), "organization"
+  name      : "Banksy"
+  url       :
+  avatar    : # path or url of avatar image (square)
+  bio       :
+  email     : banksy_c@163.com #邮箱
+  facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
+  twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
+  weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
+  googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
+  telegram  : # "user_name" the last part of your profile url, e.g. https://t.me/user_name
+  medium    : # "user_name" the last part of your profile url, e.g. https://medium.com/user_name
+  zhihu     : xiao-bu-81-8 # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
+  douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
+  linkedin  :  # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
+  github    : Banksy-C # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+  npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
+
+
+## => GitHub Repository (if the site is hosted by GitHub)
+##############################
+repository: Banksy-C/Banksy-C.github.io
+repository_tree: master
+
+
+## => Paths
+##############################
+paths:
+  root    : # title link url, "/" (default)
+  home    : # home layout url, "/" (default)
+  archive : # "/archive.html" (default)
+  rss     : # "/feed.xml" (default)
+
+
+## => Post
+##############################
+## excerpt
+excerpt_separator: <!--more-->
+
+## license
+license: CC-BY-NC-4.0 # 非商业性:您可自由地分享和改编本作品，但您不得用于商业目的。
+
+## TOC
+toc:
+  selectors: # "h1,h2,h3" (default)
+
+
+## => Markdown Enhancements
+##############################
+## Mathjax
+mathjax: true # false (default), true
+mathjax_autoNumber: true # false (default), true
+
+## Mermaid
+mermaid: true # false (default), true
+
+## Chart
+chart: true # false (default), true
+
+## => Paginate
+##############################
+# paginate: 8
+# paginate_path: /page:num # don't change this unless for special need
+
+
+## => Sources
+##############################
+sources: # bootcdn (default), unpkg
+
+
+## => Sharing
+##############################
+sharing:
+  provider: false # false (default), "addtoany", "addthis", "custom"
+
+  ## AddThis
+  addthis:
+    id: # AddThis pubid, e.g. ra-5xxxxxxxxxxx
+
+
+## => Comments
+##############################
+comments:
+  provider: disqus # false (default), "disqus", "gitalk", "valine", "custom"
+
+  ## Disqus
+  disqus:
+    shortname: banksy # the Disqus shortname for the site
+
+
+## => Build
+##############################
+markdown    : kramdown
+highlighter : rouge
+permalink   : date
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - gulpfile.js
+  - jekyll-text-theme.gemspec
+  - package-lock.json
+  - package.json
+  - /docs
+  - /node_modules
+  - /vendor
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+#      layout: article
+      sharing: true
+      license: true
+      aside:
+        toc: true
+      show_edit_on_github: true
+      show_subscribe: true
+      pageview: true
+
+
+## => Plugins
+##############################
+# plugins:
+#  - jekyll-feed
+#  - jekyll-paginate
+#  - jekyll-sitemap
+#  - jemoji
+#  - jekyll-seo-tag
