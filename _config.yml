@@ -19,8 +19,8 @@ title   : Banksy's Blog
 url     : "https://Banksy-C.github.io" # the base hostname & protocol(协议) for your site e.g. https://www.someone.com
 baseurl : "" # does not include hostname
 tagline : Technical blog and notes for personal archive # 技术博客和个人档案笔记
-#description: >
-#Sharing technical knowledge in a easy-to-learn way
+description: > # this means to ignore newlines until "Language & timezone"
+  Sharing technical knowledge in a easy-to-learn way
 # 以易于学习的方式分享技术知识
 
 bio-page-label: About
