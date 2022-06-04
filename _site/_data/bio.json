@@ -1,0 +1,106 @@
+{
+  "basics": {
+    "name": "Banksy",
+    "label": "Database Developer",
+    "picture": "https://avatars.githubusercontent.com/u/49909368?v=4",
+    "website": "https://zhenye-na.github.io",
+    "summary": "Hi, this is Banksy, currently a Database Development Engineer. I’m documenting my learning notes in this blog.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": " Shanxi Xi'an",
+      "countryCode": "",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "Banksy",
+        "url": "http://github.com/Banksy-C"
+      }
+    ]
+  },
+  "interests": [
+    {
+      "name": "Big Data",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Data Science",
+      "keywords": [
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "level": "",
+      "keywords": [
+        "Java",
+        "Typescript/Javascript",
+        "Python",
+        "Golang",
+        "Shell scripting",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "level":"",
+      "keywords": [
+        "Spring",
+        "TensorFlow",
+        "PyTorch",
+        "Symfony",
+        "Django",
+        "React",
+        "Angular"
+      ]
+    },
+    {
+      "name": "Tools",
+      "level": "",
+      "keywords": [
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "Helm",
+        "Grafana"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Illinois at Urbana - Champaign",
+      "area": "Master of Science, Industrial Engineering in Advanced Analytics",
+      "endDate": "May 2019"
+    },
+    {
+      "institution": "Dalian University of Technology",
+      "area": "Bachelor of Engineering, Harbor, Waterway and Coastal Engineering",
+      "endDate": "July 2017"
+    }
+  ],
+  "work": [
+    {
+      "company": "Amazon Web Services (AWS)",
+      "position": "Software Development Engineer",
+      "startDate": "July 2021",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+      ]
+    },
+    {
+      "company": "CrowdCirlce Inc. dba HealthCrowd",
+      "position": "Data Engineer",
+      "startDate": "Mar. 2020",
+      "endDate": "Jun. 2021",
+      "summary": "",
+      "highlights": [
+      ]
+    }
+  ]
+}
